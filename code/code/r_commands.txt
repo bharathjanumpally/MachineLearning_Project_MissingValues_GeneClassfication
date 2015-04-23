@@ -1,0 +1,3 @@
+source("C:/Users/ramsundar/Desktop/try/1/try_k.R")
+
+write.csv(result$data, file =paste("C:/Users/ramsundar/Desktop/try/1/k_10.csv",sep=""),row.names=FALSE)

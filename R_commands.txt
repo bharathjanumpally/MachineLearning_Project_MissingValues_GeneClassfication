@@ -1,0 +1,10 @@
+source("C:/Users/ramsundar/Desktop/try/1/try_k.R")
+
+
+temp <- as.matrix(read.csv(file.choose(),header=T))
+
+result <- impute.knn(temp)
+
+ write.csv(result$data, file ="C:/Users/ramsundar/Desktop/try/1/bio_12.csv")
+
+write.csv(result$data, file ="C:/Users/ramsundar/Desktop/try/1/bio_12.csv",row.names=FALSE)

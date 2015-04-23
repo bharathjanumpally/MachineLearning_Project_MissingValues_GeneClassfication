@@ -5,7 +5,7 @@ for(npcs in 48:48)
 {
 result <- completeObs(pca(t_with_my_missing, nPcs=npcs, method="bpca"))
 result<-t(result)
-filename<-paste("C:/Users/ramsundar/Desktop/try/1/pca_bpca_",toString(npcs),".csv",sep="")
+filename<-paste("C:/Users/bharath/Desktop/try/1/pca_bpca_",toString(npcs),".csv",sep="")
 print(paste("Created :", filename, sep=""))
 write.csv(result, file =filename,row.names=FALSE)
 }

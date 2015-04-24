@@ -1,5 +1,5 @@
 rm(list=ls())
-with_my_missing <- as.matrix(read.csv(file="C:/Users/ramsundar/Desktop/try/1/caioriginal12.csv",head=TRUE,sep=","))
+with_my_missing <- as.matrix(read.csv(file="C:/Users/bharath/Desktop/try/1/caioriginal12.csv",head=TRUE,sep=","))
 t_with_my_missing <- t(with_my_missing)
 for(npcs in 48:48)
 {
